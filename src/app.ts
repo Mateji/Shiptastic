@@ -4,8 +4,8 @@ import { WelcomeScene } from './welcomeScene';
 
 const config: GameConfig = {
     title: 'Phaser Typescript Skeleton',
-    width: 800,
-    height: 600,
+    width: 1200,
+    height: 900,
     parent: 'game',
     scene: [GameScene, WelcomeScene],
     physics: {
